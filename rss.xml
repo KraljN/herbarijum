@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"> 
+<channel>
+	  <title>Biljke</title>
+	  <link>http://sajtovistudenata.ict.edu.rs/76_18/index.html</link>
+	  <description>Sajt na kome možete naći biljke lekovitog svojstva.</description>
+	<item>
+		<title>Nova vrsta</title>
+		<link>http://sajtovistudenata.ict.edu.rs/76_18/vrste.html</link>
+		<description>Nova vrsta biljke je dodata u naš herbarijum.</description>
+	</item>
+	<item>
+		<title>Nova slika</title>
+		<link>http://sajtovistudenata.ict.edu.rs/76_18/galerija.html</link>
+		<description>Ubacili smo nove slike u našu galeriju herbarijuma.</description>
+	</item>
+
+</channel>
+</rss>

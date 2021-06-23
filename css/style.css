@@ -1,0 +1,371 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+a{
+	text-decoration:none;
+	color:white;
+	text-transform:uppercase;
+}
+main{
+	margin-top:90px;
+	text-align:center;
+}
+
+p{
+	color:#303235;
+	font-size:18px;
+	text-align:left;
+}
+header{
+	width:100%;
+	height:90px;
+	background-color:#303235;
+	position:fixed;
+	top:0px;
+	left:0px;
+	z-index:1;
+}
+nav{
+	float:right;
+	width:1000px;
+}
+ul{
+	list-style-type:none;
+}
+img{
+	border-radius:5px;
+}
+footer{
+	width:100%;
+	height:85px;
+	background-color:#303235;
+	padding:15px 0px 5px;
+}
+h3, .vrsta h2{
+	margin:10px 0px 15px 0px;
+	color:rgb(201, 29, 30);
+	font-size:25px
+}
+figure{
+	margin-bottom:30px;
+	border-radius: 5px;
+}
+figcaption{
+	padding:10px 15px;
+	background-color:rgba(48, 50, 53, 0.2);
+	color:#303235;
+	text-transform:none;
+	border-radius: 0px 0px 5px 5px;
+}
+.cleaner{
+	clear:both;
+}
+nav ul{
+	float:right;
+}
+nav ul li a{
+	font-size:20px;
+}
+nav a:hover{
+	color:bab2a0;
+}
+nav ul li.selected {
+	border-top:4px solid rgb(201, 29, 30);
+	padding-top:26px;
+}
+nav li{
+	float:left;
+	padding:30px 5px 15px 5px;
+	width:130px;
+	text-align:center;
+}
+#logo{
+	height:100px;
+	width:100px;
+	float:left;
+}
+.omot-meni{
+	width:1200px;
+	margin:0px auto;
+}
+.omot{
+	width:1000px;
+	margin:0px auto;
+}
+#baner{
+	width:100%;
+	height:360px;
+	background-image:url("../img/pozadina.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	padding-top:50px;
+}
+#baner h1, #baner h2, nav a, i{
+	color:rgb(203, 209, 216);
+	font-weight:450;
+}
+#baner .omot h1{
+	font-size:80px;
+}
+#baner .omot h2{
+	font-size:40px;
+}
+#ideja, #vrste{
+	width:100%;
+	height:770px;
+	background-color:rgb(237, 239, 242);
+}
+
+.naslovna{
+	font-size:45px;
+	padding:50px;
+	font-weight:470;
+	color:#303235;
+}
+.artikal{
+	height:370px;
+	width:400px;
+	background-color:white;
+	margin:10px;
+	float:left;
+	border:1px solid rgba(144, 144, 144, 0.25);
+	border-radius:5px;
+	padding:20px;
+}
+#flex-containerP{
+	display:flex;
+	justify-content:space-between;
+}
+.fafa-pozadina{
+	height:140px;
+	width:140px;
+	border-radius:50%;
+	margin:20px 0px 0px 65px;
+	background-color:#b944c4;
+}
+.fafa-pozadina i{
+	font-size:70px;
+	margin:30px 0px 0px 2px;
+}
+
+#ideja ul{
+	text-align:center;
+	display:inline-block;
+	margin-top:60px;
+}
+#ideja a{
+	color:green;
+	font-size:23px;
+	border:3px solid green;
+	padding:10px 30px;
+	border-radius:2px;
+	text-weight:400;
+	transition: background-color .7s;
+}
+#ideja a:hover{
+	background-color:rgba(0, 255, 0, 0.15)
+}
+#social{
+	width:300px;
+	float:right;
+}
+#xml{
+	width:220px;
+	height:40px;
+}
+#social li{
+	float:left;
+	padding:23px 10px 10px;
+}
+#xml li{
+	float:left;
+	padding: 5px 15px 5px;
+	margin-top:5px;
+}
+#ftext{
+	width:220px;
+	height:50px;
+}
+#xml-txt{
+	height:100%;
+	width:700px;
+	float:left;
+}
+#footer{
+	color:#686555;
+	padding:3px;
+	margin-left:7px;
+}
+footer i{
+	font-size:25px;
+}
+.vrsta{
+	width:900px;
+	height:200px;
+	border-radius:5px;
+	margin:20px 40px 20px 40px ;
+	background-color:white;
+	border:1px solid rgba(144, 144, 144, 0.25);
+	border-radius:5px;
+	text-align:center;
+}
+#vrste{
+	height:1150px;
+	padding-top:15px;
+}
+.slika-vrsta{
+	width:350px;
+	height:200px;
+	float:left;
+}
+.text-vrsta{
+	width:550;
+	heght:100%;
+	float:left
+}
+.crta{
+	width:40%;
+	position:absolute;
+	border-bottom:4px solid rgba(48, 50, 53, 0.6);
+	border-radius:4px;
+	left:30%;
+	height:3px;
+	top:25%
+}
+.vrsta p{
+	margin:20px 20px 0px 30px;
+	font-size:15px;
+}
+.vrsta h2{
+	margin:10px 0px 0px 0px;
+}
+#naslov{
+	width:100%;
+	height:168px;
+	background-color:rgb(237, 239, 242)
+}
+#galerija-container{
+	display:flex;
+	width:100%;
+	height:1150px;
+	flex-direction:row;
+	padding-top:20px;
+}
+.kolona{
+	flex-direction:column;
+	width:300px;
+	height:100%;
+	margin-left:25px;
+}
+figure img{
+	border-radius:5px 5px 0px 0px;
+}
+figure:hover{
+	background-color:rgba(48, 50, 53, 0.05);
+	box-shadow:0px 0px 5px rgb(201, 29, 30);
+}
+figcaption h2{
+	font-weight:200;
+	font-size:20px;
+}
+#autor{
+	width:90%;
+	height:680px;
+	background-color:rgb(140, 145, 153);
+	padding:30px 20px;
+	margin:120px 0px 30px 30px;
+	border-radius:5px;
+}
+#autor-slika{
+	float:left;
+	width:450px;
+	height:675px;
+	background-color:orange;
+}
+#autor-text{
+	float:right;
+	height:675px;
+	width:400px;
+	margin-top:5%;
+}
+.linija{
+	width:90%;
+	margin-left:20px;
+	border: 2px solid rgb(201, 29, 30);
+	border-radius: 5px;
+}
+.vrsta hr{
+	width:40%;
+	margin-left:165px;
+	border: 2px solid rgb(145, 139, 133);
+	border-radius: 5px;
+}
+#autor-text h2, #autor-text p{
+	padding-top:25px;
+	
+}
+#autor-text p{
+	font-size:20px;
+}
+.flex{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	height:800px;
+}
+#forma{
+	width:80%;
+	height:700px;
+	background-color:rgb(140, 145, 153);
+	border-radius:10px;
+	padding:20px;
+	align-items:center;
+	justify-content: space-around;
+	display:flex;
+}
+#forma-slika{
+	width:400px;
+	height:450px;
+}
+#forma-polja{
+	width:450px;
+	height:90%;
+}
+#forma h2{
+	margin-top:20px;
+}
+input{
+	height:50px;
+}
+input:first-child{
+	margin-top:15%;
+}
+input, textarea{
+	border-radius:20px;
+	width:90%;
+	margin:10px 0px;
+}
+input[placeholder], textarea[placeholder]{
+	padding-left:15px;
+	font-family: 'Poppins', sans-serif;
+	font-size:17px;
+}
+textarea[placeholder]{
+	padding-top:5px;
+}
+#submit{
+	width:130px;
+	height:45px;
+	background-color:rgb(201, 29, 30);
+	font-family: 'Poppins', sans-serif;
+	color:white;
+	font-size:20px;
+}
+input:focus, textarea:focus{
+	outline:none;
+}
